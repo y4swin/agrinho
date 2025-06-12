@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Festejando Campo e Cidade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando o Campo e a Cidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Festejando Campo e Cidade</h1>
-        <p>Tradições que unem o Brasil inteiro!</p>
+        <h1>Festejando o Campo e a Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="imagens/campo.jpg">Campo</a></li>
+                <li><a href="imagens/Festa2.jpg">Cidade</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section class="festa campo">
-            <h2>Festas no Campo</h2>
-            <img src="imagens/campo.jpg" alt="Festa no campo">
-            <p>As festas juninas são típicas do interior, com quadrilha, fogueira, comidas típicas e muita alegria!</p>
+    <div class="content">
+        <section id="campo">
+            <div class="background" id="campo-bg"></div>
+            <div class="text">
+                <h2>Festas do Campo</h2>
+                <p>Vivencie o calor da fogueira, as danças ao som do forró e a comida caseira que enche de alegria.</p>
+
+
+            </div>
         </section>
 
-        <section class="festa cidade">
-            <h2>Festas na Cidade</h2>
-            <img src="imagens/cidade.jpg" alt="Festa na cidade">
-            <p>Nas cidades, grandes eventos culturais e shows tomam conta das ruas e praças com música, dança e diversidade!</p>
+        <section id="cidade">
+            <div class="background" id="cidade-bg"></div>
+            <div class="text">
+                <h2>Festas da Cidade</h2>
+                <p>Explore a energia das ruas, com blocos de carnaval, shows e festas que nunca param!</p>
+            </div>
         </section>
-    </main>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Festejando Brasil</p>
+        <p>&copy; 2025 Festejando o Campo e a Cidade. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
