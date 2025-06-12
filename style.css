@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8e1;
+}
+
+header {
+    background: #ff9800;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.festa {
+    background: #ffe0b2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.festa img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
